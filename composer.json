@@ -1,0 +1,25 @@
+{
+    "name": "aureo.ramos/newprojectphp",
+    "require": {
+        "monolog/monolog": "^2.0",
+        "codeception/codeception": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "akamus",
+            "email": "akamus.souto@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "Config\\":  "app/config/",
+            "Models\\":  "app/models/",
+            "Controllers\\":  "app/controllers/",
+            
+            "Libs\\":  "libs/"
+            
+        }
+        
+     }
+}
